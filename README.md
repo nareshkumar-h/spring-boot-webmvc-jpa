@@ -12,9 +12,9 @@ spring.datasource.url=jdbc:oracle:thin:@trainingdb.cmqwe8vrjnur.us-east-1.rds.am
 spring.datasource.username=naresh
 spring.datasource.password=password
 ```
-* Create DataSourceConfig.java
-* Configure SessionFactory or EntityManager Factory
-* add ojdbc dependency, hibernate dependency
+* Create/Copy DataSourceConfig.java
+  * Configure SessionFactory or EntityManager Factory
+* pom.xml ( add ojdbc dependency, hibernate dependency )
 
 #### Task 3: Test Spring Boot Server 
 * Ensure Spring Boot server is started.
