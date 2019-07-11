@@ -22,13 +22,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class DataSourceConfig {
 
 	@Bean
-	public JdbcTemplate jdbcTemplate(DataSource dataSource) {
-		System.out.println("Creating jdbcTemplate");
-		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
-		return jdbcTemplate;
-	}
-
-	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 		em.setDataSource(dataSource);
