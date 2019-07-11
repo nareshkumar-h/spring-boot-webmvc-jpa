@@ -2,8 +2,7 @@
 
 #### Task 1 : Generate Spring Boot Project and Import Project
 * http://start.spring.io
-* Add Dependencies
- * web,jpa,jdbc,devtools
+* Add Dependencies -  web,jpa,jdbc,devtools
 
 #### Task 2: Configure DataSource
 * application.properties
